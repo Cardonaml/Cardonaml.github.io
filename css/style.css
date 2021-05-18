@@ -1,0 +1,65 @@
+body{
+  font-family: 'Yusei Magic', sans-serif;
+}
+main > * {
+  padding: 10px;
+  margin: 10px;
+  flex: 1 80%;
+}
+
+.bg-header{
+  background-color: #f3f3f3;
+}
+
+.card-hero{
+  background-color: #c0e3e7;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress{
+  width: 50% !important;
+}
+
+.box{
+  -webkit-box-shadow: 2px 10px 24px 0px rgba(192,227,231,0.58);
+-moz-box-shadow: 2px 10px 24px 0px rgba(192,227,231,0.58);
+box-shadow: 2px 10px 24px 0px rgba(192,227,231,0.58);
+}
+
+
+.ir-arriba{
+  display:none;	
+	background:#71afb6;	
+	color:white;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px){
+  body{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  main {
+    display: block;
+    width: 80%;
+    margin: 0 auto;  
+    background-color: #f4f4f4;  
+  }
+
+  section{
+    background-color:ghostwhite;
+    margin-bottom: 20px;
+  }
+  
+}

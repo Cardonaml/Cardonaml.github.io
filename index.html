@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/js/main.js">
+  <link rel="shortcut icon" type="image/png" href="/img/favicon-16x16.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+  <title>Mónica Lucía Cardona</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar is-white" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <!-- cambiar logo -->
+          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end px-5">
+          <a class="navbar-item" href="#hero-ppal">
+            <h5 class="title is-5">INFO</h5>
+          </a>
+
+          <a class="navbar-item" href="#portfolio">
+            <h5 class="title is-5">PORTFOLIO</h5>
+          </a>
+
+          <a class="navbar-item" href="#contacto">
+            <h5 class="title is-5">CONTACTO</h5>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="columns is-multiline is-mobile bg-header mt-3">
+      <div class="column auto"></div>
+      <div class="column is-1">
+        <a href="#hero-ppal">
+          <span class="icon">
+            <box-icon name='image'></box-icon>
+          </span>
+        </a>
+      </div>
+      <div class="column is-1">
+        <a href="#portfolio">
+          <span class="icon">
+            <box-icon name='briefcase'></box-icon>
+          </span>
+        </a>
+      </div>
+      <div class="column is-1">
+        <a href="#contacto">
+          <span class="icon ">
+            <box-icon name='envelope'></box-icon>
+          </span>
+        </a>
+      </div>
+      <div class="column auto"></div>
+    </div>
+  </header>
+  <main>
+    <section class="section" id="hero-ppal">
+      <div class="columns">
+        <div class="column is-narrow-desktop"></div>
+        <div class="column is-narrow-desktop"></div>
+        <div class="box column card-hero is-one-quarter-desktop">
+          <div class="content hero">
+            <figure class="image is-128x128 mt-5">
+              <img class="is-rounded is-centered" src="/img/foto_perfil.png" alt="image">
+            </figure>
+          </div>
+          <div class="card-content hero">
+            <h4 class="title is-4 has-text-centered">MONICA LUCIA CARDONA</h4>
+            <h6 class="subtitle is-6 has-text-centered">Desarrolladora Web FrontEnd</h6>
+            <div class="block">
+              <a href="https://github.com/Cardonaml" target="_blank">
+                <span>
+                  <box-icon name='github' type='logo' color='#2f2f2f'></box-icon>
+                </span>
+              </a>
+              <a href="https://www.linkedin.com/in/cardonaml/" target="_blank">
+                <span>
+                  <box-icon name='linkedin' type='logo' color='#2f2f2f'></box-icon>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="content hero">
+            <a href="/img/CV_Monica_Cardona_Dev_Web.pdf" target="_blank">
+              <button class="button is-dark is-hovered">
+                <span class="icon">
+                  <box-icon name='arrow-to-bottom' color='#ffffff'></box-icon>
+                </span>
+                <span>Descarga CV</span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="column is-narrow-desktop"></div>
+        <div class="column is-half-desktop">
+          <h3 class="title is-3">SOBRE MI</h3>
+          <br>
+          <p class="has-text-justified">
+            ¡Hola! Soy <strong>Mónica</strong>. Vivo en Buenos Aires hace más de 10 años.
+            Siempre estuve relacionada laboralmente con el área de la salud; en el
+            2020 decidí dar un giro de 180º hacía el mundo del IT donde descrubí que
+            a partir del código hay un mundo de posibilidades.
+            Mi camino empezó de la mano de HTML, CSS y JS con el que considero puedo sumar
+            mis conocimientos y experiencia al sector y formar una sinergia entre ambos.
+          </p>
+          <br>
+          <div class="content">
+            <button class="button">
+              <span class="icon">
+                <a href="whatsapp://send?text=https://cardonaml.github.io/" class="whatsapp">
+                  <box-icon name='share-alt' color='#2f2f2f'></box-icon>
+                </a>
+              </span>
+              <span>Compartir</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section datos_personales">
+      <div class="columns">
+        <div class="column is-narrow-tablet"></div>
+        <div class="column is-narrow-tablet"></div>
+        <div class="column is-one-third-tablet">
+          <h4 class="title is-4">Información Personal</h4>
+          <dl>
+            <dt><strong>Email</strong></dt>
+            <dd>monicardona1013@gmail.com</dd>
+            <br>
+            <dt><strong>Teléfono</strong></dt>
+            <dd>+5491134866835</dd>
+            <br>
+            <dt><strong>Dirección</strong></dt>
+            <dd>Cuyo 1345 Moreno Prov de BsAs</dd>
+          </dl>
+        </div>
+
+        <div class="column is-narrow-tablet"></div>
+        <div class="column is-narrow-tablet"></div>
+        <div class="column is-narrow-tablet"></div>
+        <div class="column is-narrow-tablet"></div>
+
+        <div class="column is-one-third-tablet">
+          <h4 class="title is-4">Idiomas</h4>
+          <dl>
+            <dt><strong>Inglés</strong></dt>
+            <dd class="barra_progreso">
+              <progress class="progress is-normal" value="50" max="100">50%</progress>
+            </dd>
+          </dl>
+          <br>
+          <h4 class="title is-4">Skills</h4>
+          <div class="block">
+            <a href="#">
+              <span>
+                <box-icon name='figma' type='logo' color='#2f2f2f'></box-icon>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <box-icon name='html5' type='logo' color='#2f2f2f'></box-icon>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <box-icon name='css3' type='logo' color='#2f2f2f'></box-icon>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <box-icon name='javascript' type='logo' color='#2f2f2f'></box-icon>
+              </span>
+            </a>
+            <a href="#">
+              <span>
+                <box-icon name='adobe' type='logo' color='#2f2f2f'></box-icon>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="column is-narrow-tablet"></div>
+        <div class="column is-narrow-tablet"></div>
+      </div>
+    </section>
+    <section class="section" id="portfolio">
+      <div class="column">
+        <h3 class="title is-3 has-text-centered">PORTFOLIO</h3>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child box">
+                <figure class="image">
+                  <img src="/img/lldlm_779x568.png" alt="">
+                </figure>
+              </article>
+              <article class="tile is-child box">
+                <figure class="image">
+                  <img src="/img/lldlm_1090x854.png" alt="">
+                </figure>
+              </article>
+              <article class="tile is-child box">
+                <figure class="image">
+                  <img src="/img/ecap_1013x547.png" alt="">
+                </figure>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image">
+                  <img src="/img/hds_324x825.png" alt="">
+                </figure>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent ">
+            <article class="tile is-child box">
+              <figure class="image">
+                <img src="/img/hds_965x631.png" alt="">
+              </figure>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child box">
+            <figure class="image">
+              <img src="/img/ecap_297x619.png" alt="">
+            </figure>
+          </article>
+          <article class="tile is-child box">
+            <figure class="image">
+              <img src="/img/lldlm_400x866.png" alt="">
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="contacto">
+      <div class="column">
+        <h3 class="title is-3 has-text-centered">CONTACTO</h3>
+      </div>
+      <form action="consulta.php" method="POST" class="formulario" id="formulario"></form>
+      <div class="field">
+        <label class="label">Nombre</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input validation" type="text" placeholder="Nombre" maxlength="30" name="inputNameField">
+          <span class="icon is-small is-left">
+            <box-icon name='user' type='solid' color='#b7b7b7'></box-icon>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle" id='nameCheckIcon'></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input validation" type="email" placeholder="Email" maxlength="30" value="nombre@mail"
+            name="inputEmailField">
+          <span class="icon is-small is-left">
+            <box-icon name='envelope' type='solid' color='#b7b7b7'></box-icon>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fas fa-exclamation-triangle" id='emailCheckIcon'></i>
+          </span>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Mensaje</label>
+        <div class="control">
+          <textarea name="mensaje" row="8" class="textarea" placeholder="Escribe Aqui"></textarea>
+        </div>
+      </div>
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-dark is-hovered" id="submitButton" type="submit">
+            <span class="icon">
+              <box-icon name='arrow-to-bottom' color='#ffffff'></box-icon>
+            </span>
+            <span>Enviar</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="flecha_subir">
+      <span class="icon ir-arriba">
+        <box-icon class="flecha" name='up-arrow-alt' color='#ffffff'></box-icon>
+      </span>
+    </div>
+  </main>
+</body>
+<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+<script src="https://kit.fontawesome.com/9092ef8709.js" crossorigin="anonymous"></script>
+<script src="/js/jquery-latest.js"></script>
+<script src="/js/main.js"></script>
+
+</html>
