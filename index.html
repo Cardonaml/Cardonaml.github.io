@@ -5,21 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+  <link rel="stylesheet" href="/css/bulma.min.css">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="shortcut icon" type="image/png" href="/img/favicon-16x16.png">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
-  <title>Mónica Lucía Cardona</title>
+  <title>CV Mónica Lucía Cardona</title>
 </head>
 
 <body>
   <header>
     <nav class="navbar is-white" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="https://cardonaml.github.io/">
           <!-- cambiar logo -->
-          <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+          <img src="/img/finger-print-outline.svg" width="28" height="28" alt="finger">
         </a>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -31,7 +30,7 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end px-5">
-          <a class="navbar-item" href="#hero-ppal">
+          <a class="navbar-item" href="#info">
             <h5 class="title is-5">INFO</h5>
           </a>
 
@@ -48,7 +47,7 @@
     <div class="columns is-multiline is-mobile bg-header mt-3">
       <div class="column auto"></div>
       <div class="column is-1">
-        <a href="#hero-ppal">
+        <a href="#info">
           <span class="icon">
             <box-icon name='image'></box-icon>
           </span>
@@ -72,7 +71,7 @@
     </div>
   </header>
   <main>
-    <section class="section" id="hero-ppal">
+    <section class="section" id="info">
       <div class="columns">
         <div class="column is-narrow-desktop"></div>
         <div class="column is-narrow-desktop"></div>
@@ -210,24 +209,24 @@
             <div class="tile is-parent is-vertical">
               <article class="tile is-child box">
                 <figure class="image">
-                  <img src="/img/lldlm_779x568.png" alt="">
+                  <img src="/img/lldlm_779x568.png" alt="lldl_video">
                 </figure>
               </article>
               <article class="tile is-child box">
                 <figure class="image">
-                  <img src="/img/lldlm_1090x854.png" alt="">
+                  <img src="/img/lldlm_1090x854.png" alt="lldl_servicios">
                 </figure>
               </article>
               <article class="tile is-child box">
                 <figure class="image">
-                  <img src="/img/ecap_1013x547.png" alt="">
+                  <img src="/img/ecap_1013x547.png" alt="ecap_fechas">
                 </figure>
               </article>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child box">
                 <figure class="image">
-                  <img src="/img/hds_324x825.png" alt="">
+                  <img src="/img/hds_324x825.png" alt="hds_nosotros">
                 </figure>
               </article>
             </div>
@@ -235,7 +234,7 @@
           <div class="tile is-parent ">
             <article class="tile is-child box">
               <figure class="image">
-                <img src="/img/hds_965x631.png" alt="">
+                <img src="/img/hds_965x631.png" alt="hds_inicio">
               </figure>
             </article>
           </div>
@@ -243,65 +242,23 @@
         <div class="tile is-parent is-vertical">
           <article class="tile is-child box">
             <figure class="image">
-              <img src="/img/ecap_297x619.png" alt="">
+              <img src="/img/ecap_297x619.png" alt="ecap_quienes_somos">
             </figure>
           </article>
           <article class="tile is-child box">
             <figure class="image">
-              <img src="/img/lldlm_400x866.png" alt="">
+              <img src="/img/lldlm_400x866.png" alt="lldl_responsive">
             </figure>
           </article>
         </div>
       </div>
     </section>
     <section class="section" id="contacto">
-      <div class="column">
-        <h3 class="title is-3 has-text-centered">CONTACTO</h3>
-      </div>
-      <form action="consulta.php" method="POST" class="formulario" id="formulario"></form>
       <div class="field">
-        <label class="label">Nombre</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input validation" type="text" placeholder="Nombre" maxlength="30" name="inputNameField">
-          <span class="icon is-small is-left">
-            <box-icon name='user' type='solid' color='#b7b7b7'></box-icon>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-exclamation-triangle" id='nameCheckIcon'></i>
-          </span>
-        </div>
-      </div>
 
-      <div class="field">
-        <label class="label">Email</label>
-        <div class="control has-icons-left has-icons-right">
-          <input class="input validation" type="email" placeholder="Email" maxlength="30" value="nombre@mail"
-            name="inputEmailField">
-          <span class="icon is-small is-left">
-            <box-icon name='envelope' type='solid' color='#b7b7b7'></box-icon>
-          </span>
-          <span class="icon is-small is-right">
-            <i class="fas fa-exclamation-triangle" id='emailCheckIcon'></i>
-          </span>
-        </div>
-      </div>
-
-      <div class="field">
-        <label class="label">Mensaje</label>
-        <div class="control">
-          <textarea name="mensaje" row="8" class="textarea" placeholder="Escribe Aqui"></textarea>
-        </div>
-      </div>
-
-      <div class="field is-grouped">
-        <div class="control">
-          <button class="button is-dark is-hovered" id="submitButton" type="submit">
-            <span class="icon">
-              <box-icon name='arrow-to-bottom' color='#ffffff'></box-icon>
-            </span>
-            <span>Enviar</span>
-          </button>
-        </div>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfmqMbfTYWLX-It5rFaYN5C8MxExyHK7j-myGj2h2QwDhk3bw/viewform?embedded=true"
+          width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
       </div>
     </section>
     <div class="flecha_subir">
@@ -314,7 +271,6 @@
 <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 <script src="https://kit.fontawesome.com/9092ef8709.js" crossorigin="anonymous"></script>
 <script src="/js/jquery-latest.js"></script>
-<script src="/js/consulta.php"></script>
 <script src="/js/main.js"></script>
 
 </html>
