@@ -31,14 +31,15 @@ main > * {
 box-shadow: 2px 10px 24px 0px rgba(192,227,231,0.58);
 }
 
-.telefono{
-  outline: none;
+.telefono,
+.telefono:visited,
+.telefono:active{  
+  outline: none !important;  
   text-decoration: none;
+  color: #4a4a4a;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.telefono:link{
-  color: #4a4a4a;
-}
 .telefono:hover{
   color: #c0e3e7;
 }
