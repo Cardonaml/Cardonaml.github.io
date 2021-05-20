@@ -141,14 +141,11 @@
         <div class="column is-one-third-tablet">
           <h4 class="title is-4">Información Personal</h4>
           <dl>
-            <dt><strong>Email</strong></dt>
-            <dd>monicardona1013@gmail.com</dd>
-            <br>
             <dt><strong>Teléfono</strong></dt>
-            <dd>+5491134866835</dd>
+            <dd><a href="+5491134866835" class="telefono">+5491134866835</a></dd>
             <br>
             <dt><strong>Dirección</strong></dt>
-            <dd>Cuyo 1345 Moreno Prov de BsAs</dd>
+            <dd>Moreno Prov de BsAs</dd>
           </dl>
         </div>
 
@@ -254,12 +251,74 @@
       </div>
     </section>
     <section class="section" id="contacto">
-      <div class="field">
-
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSfmqMbfTYWLX-It5rFaYN5C8MxExyHK7j-myGj2h2QwDhk3bw/viewform?embedded=true"
-          width="640" height="673" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+      <div class="column">
+        <h3 class="title is-3 has-text-centered">CONTACTO</h3>
       </div>
+      <form action="https://formspree.io/f/xpzkpbjd" method="POST" class="formulario" id="formulario">
+
+        <div class="field">
+          <label class="label">Nombre</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" type="text" placeholder="Nombre" maxlength="30" name="nombre"
+              pattern="[a-zA-ZÀ-ÿ\s]{2,15}" title="Introduce entre 2 y 15 letras" required>
+            <span class="icon is-small is-left">
+              <box-icon name='user' type='solid' color='#b7b7b7'></box-icon>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle" id='errorName'></i>
+            </span>
+          </div>
+          <p class="help is-success">El campo no debe estar vacío</p>
+        </div>
+
+        <div class="field">
+          <label class="label">Asunto</label>
+          <div class="control">
+            <div class="select">
+              <select type="hidden" name="_subject">
+                <option>Seleccionar</option>
+                <option>Me interesa contactarte</option>
+                <option>Tengo una oferta laboral para ti</option>
+                <option>Busco al alguien para un proyecto freelance</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" type="email" placeholder="Email" maxlength="30" value="@mail.com" name="_replyto"
+              id="mail" required>
+            <span class="icon is-small is-left">
+              <box-icon name='envelope' type='solid' color='#b7b7b7'></box-icon>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-exclamation-triangle" id='emailCheckIcon'></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Mensaje</label>
+          <div class="control">
+            <textarea name="mensaje" row="8" class="textarea" placeholder="Escribe Aqui" id="mensaje"
+              required></textarea>
+          </div>
+          <p class="help is-success">El campo no debe estar vacío</p>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-dark is-hovered" name="message" id="enviar" rows="10" type="enviar">
+              <span class="icon">
+                <box-icon name='arrow-to-bottom' color='#ffffff'></box-icon>
+              </span>
+              <span>Enviar</span>
+            </button>
+          </div>
+        </div>
+      </form>
     </section>
     <div class="flecha_subir">
       <span class="icon ir-arriba">

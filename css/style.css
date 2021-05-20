@@ -31,7 +31,17 @@ main > * {
 box-shadow: 2px 10px 24px 0px rgba(192,227,231,0.58);
 }
 
+.telefono{
+  outline: none;
+  text-decoration: none;
+}
 
+.telefono:link{
+  color: #4a4a4a;
+}
+.telefono:hover{
+  color: #c0e3e7;
+}
 .ir-arriba{
   display:none;	
 	background:#71afb6;	
