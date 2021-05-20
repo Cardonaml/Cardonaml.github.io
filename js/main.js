@@ -48,7 +48,7 @@ $(document).ready(function () {
 //validacion formulario
 
 
-window.onload = iniciar:
+window.onload = iniciar;
 
 function iniciar() {
   document.getElementById("enviar").addEventListener('click', validar, false);
