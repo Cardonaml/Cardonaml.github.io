@@ -12,13 +12,17 @@ main > * {
 }
 
 .card-hero{
-  background-color: #c0e3e7;
+  background-color: #99CCCC;
 }
 
 .hero{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+section{
+  background-color: #F4F6F6;
 }
 
 .progress{
@@ -41,7 +45,7 @@ box-shadow: 2px 10px 24px 0px rgba(192,227,231,0.58);
 }
 
 .telefono:hover{
-  color: #c0e3e7;
+  color: #71afb6;
 }
 .ir-arriba{
   display:none;	
@@ -71,6 +75,10 @@ box-shadow: 2px 10px 24px 0px rgba(192,227,231,0.58);
   section{
     background-color:ghostwhite;
     margin-bottom: 20px;
+  }
+
+  .boton_compartir{
+    display: none;
   }
   
 }
